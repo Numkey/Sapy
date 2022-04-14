@@ -1,0 +1,6 @@
+sapy/__pycache__
+sapy.egg-info
+.mypy_cache/
+.ipynb_checkpoints/
+build/
+

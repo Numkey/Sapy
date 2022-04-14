@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sapy = {editable = true,path = "."}
+numpy = "*"
+bokeh = "*"
+jupyter = "*"
+tornado = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-xdist = "*"
+pynvim = "*"
+
+[requires]
+python_version = "3.8"
